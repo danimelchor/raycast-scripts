@@ -16,4 +16,3 @@
 
 cd ~;
 kitty --start-as=maximized -o hide_window_decorations=yes nvim;
-exit 0;
