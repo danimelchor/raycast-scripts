@@ -15,4 +15,7 @@
 # @raycast.authorURL https://danielmelchor.com/
 
 cd ~;
-kitty --start-as=maximized -o hide_window_decorations=yes nvim;
+kitty \
+    --start-as=maximized \
+    -o hide_window_decorations=yes\
+    sh -c "tmux new-session 'nvim'";

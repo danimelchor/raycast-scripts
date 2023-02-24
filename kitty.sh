@@ -15,4 +15,4 @@
 # @raycast.authorURL https://danielmelchor.com/
 
 cd ~;
-kitty;
+kitty tmux new-session;
